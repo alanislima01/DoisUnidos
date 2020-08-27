@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8536AD6524F7DA5C002CD7FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8536AD6424F7DA5C002CD7FA /* AppDelegate.swift */; };
+		8536AD6724F7DA5C002CD7FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8536AD6624F7DA5C002CD7FA /* SceneDelegate.swift */; };
+		8536AD6924F7DA5C002CD7FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8536AD6824F7DA5C002CD7FA /* ViewController.swift */; };
+		8536AD6C24F7DA5C002CD7FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8536AD6A24F7DA5C002CD7FA /* Main.storyboard */; };
+		8536AD6F24F7DA5C002CD7FA /* testeAuroraBoreal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8536AD6D24F7DA5C002CD7FA /* testeAuroraBoreal.xcdatamodeld */; };
+		8536AD7124F7DA5D002CD7FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8536AD7024F7DA5D002CD7FA /* Assets.xcassets */; };
+		8536AD7424F7DA5D002CD7FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8536AD7224F7DA5D002CD7FA /* LaunchScreen.storyboard */; };
+		8536AD7F24F7DA5E002CD7FA /* testeAuroraBorealTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8536AD7E24F7DA5E002CD7FA /* testeAuroraBorealTests.swift */; };
+		8536AD8A24F7DA5E002CD7FA /* testeAuroraBorealUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8536AD8924F7DA5E002CD7FA /* testeAuroraBorealUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8536AD7B24F7DA5E002CD7FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8536AD5924F7DA5C002CD7FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8536AD6024F7DA5C002CD7FA;
+			remoteInfo = testeAuroraBoreal;
+		};
+		8536AD8624F7DA5E002CD7FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8536AD5924F7DA5C002CD7FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8536AD6024F7DA5C002CD7FA;
+			remoteInfo = testeAuroraBoreal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8536AD6124F7DA5C002CD7FA /* testeAuroraBoreal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testeAuroraBoreal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8536AD6424F7DA5C002CD7FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8536AD6624F7DA5C002CD7FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8536AD6824F7DA5C002CD7FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8536AD6B24F7DA5C002CD7FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8536AD6E24F7DA5C002CD7FA /* testeAuroraBoreal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = testeAuroraBoreal.xcdatamodel; sourceTree = "<group>"; };
+		8536AD7024F7DA5D002CD7FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8536AD7324F7DA5D002CD7FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8536AD7524F7DA5D002CD7FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8536AD7A24F7DA5E002CD7FA /* testeAuroraBorealTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testeAuroraBorealTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8536AD7E24F7DA5E002CD7FA /* testeAuroraBorealTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testeAuroraBorealTests.swift; sourceTree = "<group>"; };
+		8536AD8024F7DA5E002CD7FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8536AD8524F7DA5E002CD7FA /* testeAuroraBorealUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testeAuroraBorealUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8536AD8924F7DA5E002CD7FA /* testeAuroraBorealUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testeAuroraBorealUITests.swift; sourceTree = "<group>"; };
+		8536AD8B24F7DA5E002CD7FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8536AD5E24F7DA5C002CD7FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8536AD7724F7DA5E002CD7FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8536AD8224F7DA5E002CD7FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8536AD5824F7DA5C002CD7FA = {
+			isa = PBXGroup;
+			children = (
+				8536AD6324F7DA5C002CD7FA /* testeAuroraBoreal */,
+				8536AD7D24F7DA5E002CD7FA /* testeAuroraBorealTests */,
+				8536AD8824F7DA5E002CD7FA /* testeAuroraBorealUITests */,
+				8536AD6224F7DA5C002CD7FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8536AD6224F7DA5C002CD7FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8536AD6124F7DA5C002CD7FA /* testeAuroraBoreal.app */,
+				8536AD7A24F7DA5E002CD7FA /* testeAuroraBorealTests.xctest */,
+				8536AD8524F7DA5E002CD7FA /* testeAuroraBorealUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8536AD6324F7DA5C002CD7FA /* testeAuroraBoreal */ = {
+			isa = PBXGroup;
+			children = (
+				8536AD6424F7DA5C002CD7FA /* AppDelegate.swift */,
+				8536AD6624F7DA5C002CD7FA /* SceneDelegate.swift */,
+				8536AD6824F7DA5C002CD7FA /* ViewController.swift */,
+				8536AD6A24F7DA5C002CD7FA /* Main.storyboard */,
+				8536AD7024F7DA5D002CD7FA /* Assets.xcassets */,
+				8536AD7224F7DA5D002CD7FA /* LaunchScreen.storyboard */,
+				8536AD7524F7DA5D002CD7FA /* Info.plist */,
+				8536AD6D24F7DA5C002CD7FA /* testeAuroraBoreal.xcdatamodeld */,
+			);
+			path = testeAuroraBoreal;
+			sourceTree = "<group>";
+		};
+		8536AD7D24F7DA5E002CD7FA /* testeAuroraBorealTests */ = {
+			isa = PBXGroup;
+			children = (
+				8536AD7E24F7DA5E002CD7FA /* testeAuroraBorealTests.swift */,
+				8536AD8024F7DA5E002CD7FA /* Info.plist */,
+			);
+			path = testeAuroraBorealTests;
+			sourceTree = "<group>";
+		};
+		8536AD8824F7DA5E002CD7FA /* testeAuroraBorealUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8536AD8924F7DA5E002CD7FA /* testeAuroraBorealUITests.swift */,
+				8536AD8B24F7DA5E002CD7FA /* Info.plist */,
+			);
+			path = testeAuroraBorealUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8536AD6024F7DA5C002CD7FA /* testeAuroraBoreal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8536AD8E24F7DA5E002CD7FA /* Build configuration list for PBXNativeTarget "testeAuroraBoreal" */;
+			buildPhases = (
+				8536AD5D24F7DA5C002CD7FA /* Sources */,
+				8536AD5E24F7DA5C002CD7FA /* Frameworks */,
+				8536AD5F24F7DA5C002CD7FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testeAuroraBoreal;
+			productName = testeAuroraBoreal;
+			productReference = 8536AD6124F7DA5C002CD7FA /* testeAuroraBoreal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8536AD7924F7DA5E002CD7FA /* testeAuroraBorealTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8536AD9124F7DA5E002CD7FA /* Build configuration list for PBXNativeTarget "testeAuroraBorealTests" */;
+			buildPhases = (
+				8536AD7624F7DA5E002CD7FA /* Sources */,
+				8536AD7724F7DA5E002CD7FA /* Frameworks */,
+				8536AD7824F7DA5E002CD7FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8536AD7C24F7DA5E002CD7FA /* PBXTargetDependency */,
+			);
+			name = testeAuroraBorealTests;
+			productName = testeAuroraBorealTests;
+			productReference = 8536AD7A24F7DA5E002CD7FA /* testeAuroraBorealTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8536AD8424F7DA5E002CD7FA /* testeAuroraBorealUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8536AD9424F7DA5E002CD7FA /* Build configuration list for PBXNativeTarget "testeAuroraBorealUITests" */;
+			buildPhases = (
+				8536AD8124F7DA5E002CD7FA /* Sources */,
+				8536AD8224F7DA5E002CD7FA /* Frameworks */,
+				8536AD8324F7DA5E002CD7FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8536AD8724F7DA5E002CD7FA /* PBXTargetDependency */,
+			);
+			name = testeAuroraBorealUITests;
+			productName = testeAuroraBorealUITests;
+			productReference = 8536AD8524F7DA5E002CD7FA /* testeAuroraBorealUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8536AD5924F7DA5C002CD7FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Alanis Lima Santa Clara";
+				TargetAttributes = {
+					8536AD6024F7DA5C002CD7FA = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					8536AD7924F7DA5E002CD7FA = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 8536AD6024F7DA5C002CD7FA;
+					};
+					8536AD8424F7DA5E002CD7FA = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 8536AD6024F7DA5C002CD7FA;
+					};
+				};
+			};
+			buildConfigurationList = 8536AD5C24F7DA5C002CD7FA /* Build configuration list for PBXProject "testeAuroraBoreal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8536AD5824F7DA5C002CD7FA;
+			productRefGroup = 8536AD6224F7DA5C002CD7FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8536AD6024F7DA5C002CD7FA /* testeAuroraBoreal */,
+				8536AD7924F7DA5E002CD7FA /* testeAuroraBorealTests */,
+				8536AD8424F7DA5E002CD7FA /* testeAuroraBorealUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8536AD5F24F7DA5C002CD7FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8536AD7424F7DA5D002CD7FA /* LaunchScreen.storyboard in Resources */,
+				8536AD7124F7DA5D002CD7FA /* Assets.xcassets in Resources */,
+				8536AD6C24F7DA5C002CD7FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8536AD7824F7DA5E002CD7FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8536AD8324F7DA5E002CD7FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8536AD5D24F7DA5C002CD7FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8536AD6924F7DA5C002CD7FA /* ViewController.swift in Sources */,
+				8536AD6524F7DA5C002CD7FA /* AppDelegate.swift in Sources */,
+				8536AD6F24F7DA5C002CD7FA /* testeAuroraBoreal.xcdatamodeld in Sources */,
+				8536AD6724F7DA5C002CD7FA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8536AD7624F7DA5E002CD7FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8536AD7F24F7DA5E002CD7FA /* testeAuroraBorealTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8536AD8124F7DA5E002CD7FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8536AD8A24F7DA5E002CD7FA /* testeAuroraBorealUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8536AD7C24F7DA5E002CD7FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8536AD6024F7DA5C002CD7FA /* testeAuroraBoreal */;
+			targetProxy = 8536AD7B24F7DA5E002CD7FA /* PBXContainerItemProxy */;
+		};
+		8536AD8724F7DA5E002CD7FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8536AD6024F7DA5C002CD7FA /* testeAuroraBoreal */;
+			targetProxy = 8536AD8624F7DA5E002CD7FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8536AD6A24F7DA5C002CD7FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8536AD6B24F7DA5C002CD7FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8536AD7224F7DA5D002CD7FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8536AD7324F7DA5D002CD7FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8536AD8C24F7DA5E002CD7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8536AD8D24F7DA5E002CD7FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8536AD8F24F7DA5E002CD7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZHXRJ72927;
+				INFOPLIST_FILE = testeAuroraBoreal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AlanisLima.testeAuroraBoreal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8536AD9024F7DA5E002CD7FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZHXRJ72927;
+				INFOPLIST_FILE = testeAuroraBoreal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AlanisLima.testeAuroraBoreal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8536AD9224F7DA5E002CD7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZHXRJ72927;
+				INFOPLIST_FILE = testeAuroraBorealTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AlanisLima.testeAuroraBorealTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testeAuroraBoreal.app/testeAuroraBoreal";
+			};
+			name = Debug;
+		};
+		8536AD9324F7DA5E002CD7FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZHXRJ72927;
+				INFOPLIST_FILE = testeAuroraBorealTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AlanisLima.testeAuroraBorealTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testeAuroraBoreal.app/testeAuroraBoreal";
+			};
+			name = Release;
+		};
+		8536AD9524F7DA5E002CD7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZHXRJ72927;
+				INFOPLIST_FILE = testeAuroraBorealUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AlanisLima.testeAuroraBorealUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = testeAuroraBoreal;
+			};
+			name = Debug;
+		};
+		8536AD9624F7DA5E002CD7FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZHXRJ72927;
+				INFOPLIST_FILE = testeAuroraBorealUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AlanisLima.testeAuroraBorealUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = testeAuroraBoreal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8536AD5C24F7DA5C002CD7FA /* Build configuration list for PBXProject "testeAuroraBoreal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8536AD8C24F7DA5E002CD7FA /* Debug */,
+				8536AD8D24F7DA5E002CD7FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8536AD8E24F7DA5E002CD7FA /* Build configuration list for PBXNativeTarget "testeAuroraBoreal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8536AD8F24F7DA5E002CD7FA /* Debug */,
+				8536AD9024F7DA5E002CD7FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8536AD9124F7DA5E002CD7FA /* Build configuration list for PBXNativeTarget "testeAuroraBorealTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8536AD9224F7DA5E002CD7FA /* Debug */,
+				8536AD9324F7DA5E002CD7FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8536AD9424F7DA5E002CD7FA /* Build configuration list for PBXNativeTarget "testeAuroraBorealUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8536AD9524F7DA5E002CD7FA /* Debug */,
+				8536AD9624F7DA5E002CD7FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8536AD6D24F7DA5C002CD7FA /* testeAuroraBoreal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8536AD6E24F7DA5C002CD7FA /* testeAuroraBoreal.xcdatamodel */,
+			);
+			currentVersion = 8536AD6E24F7DA5C002CD7FA /* testeAuroraBoreal.xcdatamodel */;
+			path = testeAuroraBoreal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8536AD5924F7DA5C002CD7FA /* Project object */;
+}
