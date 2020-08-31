@@ -50,3 +50,5 @@ class AuroraViewController: UIViewController{
         task.resume()
     }
 }
+
+// oi teste
