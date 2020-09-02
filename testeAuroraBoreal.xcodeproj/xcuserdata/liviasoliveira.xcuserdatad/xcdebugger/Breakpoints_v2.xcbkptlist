@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "FEC75D07-DCE0-44F4-8B71-AA5287D26AE2"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "24042B5E-1232-464D-8ECF-27AE90E215CB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testeAuroraBoreal/SecondViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "collectionView(_:didSelectItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7CE9BBA2-74E0-4A01-B3C0-A306E5FA8FB1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testeAuroraBoreal/ThirdViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F8DF9F55-86B9-4A6D-9AB7-274303F50C5F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testeAuroraBoreal/ThirdViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0C3A1120-C619-45F4-AF5C-6B0DFB668AEA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testeAuroraBoreal/ThirdViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "04A1917C-B7E4-45E9-B02E-3EBFD9D6EA7B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PsicologiaCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "PsicologiaCollectionViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "04A1917C-B7E4-45E9-B02E-3EBFD9D6EA7B - 8ac104eb0b9f9238"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "testeAuroraBoreal.PsicologiaCollectionViewCell.buttonPsico.getter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "testeAuroraBoreal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liviasoliveira/Documents/Diretorios/DoisUnidos/PsicologiaCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "04A1917C-B7E4-45E9-B02E-3EBFD9D6EA7B - 41fb70c4f6eb7220"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "testeAuroraBoreal.PsicologiaCollectionViewCell.buttonPsico.setter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "testeAuroraBoreal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liviasoliveira/Documents/Diretorios/DoisUnidos/PsicologiaCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "155">
+               </Location>
+               <Location
+                  uuid = "04A1917C-B7E4-45E9-B02E-3EBFD9D6EA7B - 38bd5b2ce7ad6a42"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "testeAuroraBoreal.PsicologiaCollectionViewCell.buttonPsico.modify : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "testeAuroraBoreal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liviasoliveira/Documents/Diretorios/DoisUnidos/PsicologiaCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  uuid = "04A1917C-B7E4-45E9-B02E-3EBFD9D6EA7B - c7ae8b03ddcd6b62"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "testeAuroraBoreal.PsicologiaCollectionViewCell.buttonPsico.modify : Swift.Optional&lt;__C.UIButton&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "testeAuroraBoreal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liviasoliveira/Documents/Diretorios/DoisUnidos/PsicologiaCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "04A1917C-B7E4-45E9-B02E-3EBFD9D6EA7B - 444fecbaef210916"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "testeAuroraBoreal.PsicologiaCollectionViewCell.init(frame: __C.CGRect) -&gt; testeAuroraBoreal.PsicologiaCollectionViewCell"
+                  moduleName = "testeAuroraBoreal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liviasoliveira/Documents/Diretorios/DoisUnidos/PsicologiaCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "113">
+               </Location>
+               <Location
+                  uuid = "04A1917C-B7E4-45E9-B02E-3EBFD9D6EA7B - 7dc50e5caa113503"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "testeAuroraBoreal.PsicologiaCollectionViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;testeAuroraBoreal.PsicologiaCollectionViewCell&gt;"
+                  moduleName = "testeAuroraBoreal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liviasoliveira/Documents/Diretorios/DoisUnidos/PsicologiaCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "102">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
