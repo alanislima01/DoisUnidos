@@ -12,4 +12,5 @@ import UIKit
 class HumorCollectionViewCell: UICollectionViewCell{
     
     @IBOutlet weak var ButtonHumor: UIButton!
+    
 }
