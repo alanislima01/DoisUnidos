@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="KIl-hc-Qzy">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--AuroraAR View Controller-->
+        <scene sceneID="bJF-o9-T2T">
+            <objects>
+                <viewController id="KIl-hc-Qzy" customClass="AuroraARViewController" customModule="testeAuroraBoreal" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VXj-Ob-MIY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hT8-mm-ciP">
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                            </arscnView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VXg-84-yew">
+                                <rect key="frame" x="20" y="755" width="80" height="80"/>
+                                <color key="backgroundColor" red="0.54451564360000004" green="0.81894302429999999" blue="0.96130555870000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="9Pt-lW-tJv"/>
+                                    <constraint firstAttribute="height" constant="80" id="eWL-yF-9Ub"/>
+                                </constraints>
+                                <state key="normal" title="add"/>
+                                <connections>
+                                    <action selector="add:" destination="KIl-hc-Qzy" eventType="touchUpInside" id="Xcy-KO-Y5b"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tHP-us-bH3">
+                                <rect key="frame" x="290" y="755" width="80" height="80"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="FiW-LR-7GQ"/>
+                                    <constraint firstAttribute="width" constant="80" id="aYC-A4-XgF"/>
+                                </constraints>
+                                <state key="normal" title="reset"/>
+                                <connections>
+                                    <action selector="reset:" destination="KIl-hc-Qzy" eventType="touchUpInside" id="py4-5w-2PT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="yP6-sd-Ht3" firstAttribute="bottom" secondItem="tHP-us-bH3" secondAttribute="bottom" constant="52" id="3f0-Mr-Ybm"/>
+                            <constraint firstItem="hT8-mm-ciP" firstAttribute="trailing" secondItem="yP6-sd-Ht3" secondAttribute="trailing" id="5Eq-LO-H9P"/>
+                            <constraint firstItem="yP6-sd-Ht3" firstAttribute="trailing" secondItem="tHP-us-bH3" secondAttribute="trailing" constant="36" id="B3Q-7m-qPh"/>
+                            <constraint firstItem="yP6-sd-Ht3" firstAttribute="trailing" secondItem="tHP-us-bH3" secondAttribute="trailing" constant="44" id="C69-I1-0FJ"/>
+                            <constraint firstItem="hT8-mm-ciP" firstAttribute="leading" secondItem="yP6-sd-Ht3" secondAttribute="leading" id="WIN-uZ-FQT"/>
+                            <constraint firstItem="VXg-84-yew" firstAttribute="leading" secondItem="yP6-sd-Ht3" secondAttribute="leading" constant="20" id="XKp-Gb-lcI"/>
+                            <constraint firstItem="yP6-sd-Ht3" firstAttribute="bottom" secondItem="tHP-us-bH3" secondAttribute="bottom" constant="27" id="Xw4-hi-gSf"/>
+                            <constraint firstItem="yP6-sd-Ht3" firstAttribute="bottom" secondItem="VXg-84-yew" secondAttribute="bottom" constant="27" id="b3N-nj-gwO"/>
+                            <constraint firstItem="VXg-84-yew" firstAttribute="leading" secondItem="yP6-sd-Ht3" secondAttribute="leading" constant="36" id="fht-ax-3ue"/>
+                            <constraint firstItem="hT8-mm-ciP" firstAttribute="top" secondItem="yP6-sd-Ht3" secondAttribute="top" id="hgU-cw-1dB"/>
+                            <constraint firstAttribute="bottom" secondItem="hT8-mm-ciP" secondAttribute="bottom" id="kxq-Ii-rtT"/>
+                            <constraint firstItem="yP6-sd-Ht3" firstAttribute="bottom" secondItem="VXg-84-yew" secondAttribute="bottom" constant="27" id="tsC-1S-COU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yP6-sd-Ht3"/>
+                    </view>
+                    <connections>
+                        <outlet property="sceneView" destination="hT8-mm-ciP" id="8ZF-0E-kHw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IJr-uS-4Ee" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="100.00000000000001" y="128.57142857142856"/>
+        </scene>
+    </scenes>
+</document>
