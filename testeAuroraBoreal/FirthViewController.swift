@@ -11,8 +11,9 @@ import UIKit
 class FirthViewController: UIViewController {
     
     var resultado: [UIImage] = [
-        UIImage(named: "Asset 2")!,
-        UIImage(named: "Asset 3")!
+        UIImage(named: "resultadoA1")!,
+        UIImage(named:"resultadoA2")!,
+        UIImage(named: "resultadoA1")!
     ]
     
     override func viewDidLoad() {
