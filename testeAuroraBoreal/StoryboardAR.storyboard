@@ -18,26 +18,27 @@
                             <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hT8-mm-ciP">
                                 <rect key="frame" x="0.0" y="44" width="414" height="852"/>
                             </arscnView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VXg-84-yew">
-                                <rect key="frame" x="20" y="755" width="80" height="80"/>
-                                <color key="backgroundColor" red="0.54451564360000004" green="0.81894302429999999" blue="0.96130555870000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VXg-84-yew">
+                                <rect key="frame" x="36" y="755" width="119" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="80" id="9Pt-lW-tJv"/>
                                     <constraint firstAttribute="height" constant="80" id="eWL-yF-9Ub"/>
                                 </constraints>
-                                <state key="normal" title="add"/>
+                                <state key="normal" image="EncontrarAurora"/>
                                 <connections>
                                     <action selector="add:" destination="KIl-hc-Qzy" eventType="touchUpInside" id="Xcy-KO-Y5b"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tHP-us-bH3">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tHP-us-bH3">
                                 <rect key="frame" x="290" y="755" width="80" height="80"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="FiW-LR-7GQ"/>
                                     <constraint firstAttribute="width" constant="80" id="aYC-A4-XgF"/>
                                 </constraints>
-                                <state key="normal" title="reset"/>
+                                <state key="normal" image="repeat" catalog="system">
+                                    <color key="titleColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="reset:" destination="KIl-hc-Qzy" eventType="touchUpInside" id="py4-5w-2PT"/>
                                 </connections>
@@ -47,8 +48,10 @@
                         <constraints>
                             <constraint firstItem="yP6-sd-Ht3" firstAttribute="bottom" secondItem="tHP-us-bH3" secondAttribute="bottom" constant="52" id="3f0-Mr-Ybm"/>
                             <constraint firstItem="hT8-mm-ciP" firstAttribute="trailing" secondItem="yP6-sd-Ht3" secondAttribute="trailing" id="5Eq-LO-H9P"/>
+                            <constraint firstItem="VXg-84-yew" firstAttribute="leading" secondItem="yP6-sd-Ht3" secondAttribute="leading" constant="36" id="9Pt-mH-BiS"/>
                             <constraint firstItem="yP6-sd-Ht3" firstAttribute="trailing" secondItem="tHP-us-bH3" secondAttribute="trailing" constant="36" id="B3Q-7m-qPh"/>
                             <constraint firstItem="yP6-sd-Ht3" firstAttribute="trailing" secondItem="tHP-us-bH3" secondAttribute="trailing" constant="44" id="C69-I1-0FJ"/>
+                            <constraint firstItem="yP6-sd-Ht3" firstAttribute="bottom" secondItem="VXg-84-yew" secondAttribute="bottom" constant="27" id="Fbw-ey-7nS"/>
                             <constraint firstItem="hT8-mm-ciP" firstAttribute="leading" secondItem="yP6-sd-Ht3" secondAttribute="leading" id="WIN-uZ-FQT"/>
                             <constraint firstItem="VXg-84-yew" firstAttribute="leading" secondItem="yP6-sd-Ht3" secondAttribute="leading" constant="20" id="XKp-Gb-lcI"/>
                             <constraint firstItem="yP6-sd-Ht3" firstAttribute="bottom" secondItem="tHP-us-bH3" secondAttribute="bottom" constant="27" id="Xw4-hi-gSf"/>
@@ -69,4 +72,8 @@
             <point key="canvasLocation" x="100.00000000000001" y="128.57142857142856"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="EncontrarAurora" width="235" height="130"/>
+        <image name="repeat" catalog="system" width="128" height="99"/>
+    </resources>
 </document>

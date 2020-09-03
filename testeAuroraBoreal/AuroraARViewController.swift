@@ -23,6 +23,9 @@ class AuroraARViewController: UIViewController{
     @IBOutlet weak var sceneView: ARSCNView!
     
     //essa acao de baixo eh um nó..(uma posicao no espaco que nao tem forma nem tamanho)... Aqui estamos fazendo com que esse no venha para a nossa camera
+    
+    
+    
     @IBAction func add(_ sender: Any) {
         
         
@@ -43,6 +46,7 @@ class AuroraARViewController: UIViewController{
         let node = SCNNode()
         //node.geometry = SCNTorus(ringRadius: 0.3, pipeRadius: 0.1)
         node.geometry = SCNSphere(radius: 0.15)
+        
         // node.geometry = SCNPlane(width: 0.3, height: 0.3)
         
         // node.geometry?.firstMaterial?.diffuse.contents = #imageLiteral(resourceName: "Yuumi")
@@ -50,7 +54,8 @@ class AuroraARViewController: UIViewController{
         
         //        node.geometry?.firstMaterial?.diffuse.contents = UIColor.purple
         node.geometry?.firstMaterial?.specular.contents = UIColor.purple//luz que vai refletir da caixa
-        node.position = SCNVector3(0,0.4,0.2)//ele 0.3 é para deixar ele distante do vetor
+        
+        node.position = SCNVector3(0.35,0.4,0)//ele 0.3 é para deixar ele distante do vetor
         
         //        //aqui em cima eu criei a caixa
         
@@ -60,7 +65,7 @@ class AuroraARViewController: UIViewController{
             print(self.aurorasImages.count)
             
             let imagemFinal = self.aurorasImages[0]
-            
+            //pega a 0,5
             //  let elementoAleatorio =   self.aurorasImages.randomElement()
             //print(elementoAleatorio)
             do{
@@ -113,11 +118,27 @@ class AuroraARViewController: UIViewController{
         super.viewDidLoad()
         load()
         
-        self.sceneView.debugOptions = [ARSCNDebugOptions.showFeaturePoints, ARSCNDebugOptions.showWorldOrigin]
+       //self.sceneView.debugOptions = [ARSCNDebugOptions.showFeaturePoints, ARSCNDebugOptions.showWorldOrigin]
+        
+        self.sceneView.debugOptions = []
+
         self.sceneView.session.run(configuration) //descobrir minha posicao no mundo hihi
         self.sceneView.autoenablesDefaultLighting = true  // adcionamos a iluminacao
         
         
+        //inventando de fazer um texto de ultima hora
+        let text = SCNText(string: "Veja aqui sua Aurora", extrusionDepth: 2)
+        let material = SCNMaterial() //um "envoltorio"
+        material.diffuse.contents = UIColor.magenta //colocamos a cor
+        text.materials = [material] //nova quebra automatica???
+        
+        let node2 = SCNNode()
+        node2.position = SCNVector3(x:0, y:0, z:0)
+        node2.scale = SCNVector3(x:0.008, y:0.008, z:0.008)
+        node2.geometry = text
+        
+        sceneView.scene.rootNode.addChildNode(node2)
+        sceneView.autoenablesDefaultLighting = true
         // Do any additional setup after loading the view.
     }
     
@@ -153,14 +174,7 @@ class AuroraARViewController: UIViewController{
     //        let data = try? Data(contentsOf: urlImage!)
     //        let image = UIImage(data: data!)
     //    }
-    
-    
-    
-    
-    
-    
-    
-    
+      
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
