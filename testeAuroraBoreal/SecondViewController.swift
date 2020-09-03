@@ -9,6 +9,7 @@
 import UIKit
 
 class SecondViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout{
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
         return humor.count
@@ -16,7 +17,7 @@ class SecondViewController: UIViewController, UICollectionViewDataSource, UIColl
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "HumorCollectionViewCell", for: indexPath) as! HumorCollectionViewCell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "HumorCollectionViewCell", for: indexPath) as! FirstCollectionViewCell
         
         cell.ButtonHumor.setBackgroundImage(UIImage (named: humor[indexPath.row]), for: .normal)
 

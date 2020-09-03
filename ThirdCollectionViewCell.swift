@@ -8,7 +8,8 @@
 
 import UIKit
 
-class DigestaoCollectionViewCell: UICollectionViewCell{
+class ThirdCollectionViewCell: UICollectionViewCell{
     
+    @IBOutlet weak var buttonDigestao: UIButton!
     
 }

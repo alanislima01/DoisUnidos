@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class HumorCollectionViewCell: UICollectionViewCell{
+class FirstCollectionViewCell: UICollectionViewCell{
     
     @IBOutlet weak var ButtonHumor: UIButton!
     
