@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		850140582501367C00A2B0B1 /* FileARSceneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850140572501367C00A2B0B1 /* FileARSceneManager.swift */; };
 		8536AD6524F7DA5C002CD7FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8536AD6424F7DA5C002CD7FA /* AppDelegate.swift */; };
 		8536AD6724F7DA5C002CD7FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8536AD6624F7DA5C002CD7FA /* SceneDelegate.swift */; };
 		8536AD6924F7DA5C002CD7FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8536AD6824F7DA5C002CD7FA /* ViewController.swift */; };
@@ -19,7 +20,6 @@
 		8536AD9A24F7F7D9002CD7FA /* FileStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8536AD9924F7F7D9002CD7FA /* FileStruct.swift */; };
 		8536AD9D24F7F978002CD7FA /* AuroraARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8536AD9C24F7F978002CD7FA /* AuroraARViewController.swift */; };
 		854413A024FEDBFE00AE595F /* StoryboardAR.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8544139F24FEDBFE00AE595F /* StoryboardAR.storyboard */; };
-		85DB54E624FFE36200A2870C /* FileGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DB54E524FFE36200A2870C /* FileGif.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		850140572501367C00A2B0B1 /* FileARSceneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileARSceneManager.swift; sourceTree = "<group>"; };
 		8536AD6124F7DA5C002CD7FA /* testeAuroraBoreal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testeAuroraBoreal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8536AD6424F7DA5C002CD7FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8536AD6624F7DA5C002CD7FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,7 +59,6 @@
 		8536AD9924F7F7D9002CD7FA /* FileStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileStruct.swift; sourceTree = "<group>"; };
 		8536AD9C24F7F978002CD7FA /* AuroraARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuroraARViewController.swift; sourceTree = "<group>"; };
 		8544139F24FEDBFE00AE595F /* StoryboardAR.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StoryboardAR.storyboard; sourceTree = "<group>"; };
-		85DB54E524FFE36200A2870C /* FileGif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileGif.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,10 +112,10 @@
 				8536AD9C24F7F978002CD7FA /* AuroraARViewController.swift */,
 				8536AD9924F7F7D9002CD7FA /* FileStruct.swift */,
 				8536AD6424F7DA5C002CD7FA /* AppDelegate.swift */,
-				85DB54E524FFE36200A2870C /* FileGif.swift */,
 				8536AD6824F7DA5C002CD7FA /* ViewController.swift */,
 				8536AD6624F7DA5C002CD7FA /* SceneDelegate.swift */,
 				8544139F24FEDBFE00AE595F /* StoryboardAR.storyboard */,
+				850140572501367C00A2B0B1 /* FileARSceneManager.swift */,
 				8536AD6A24F7DA5C002CD7FA /* Main.storyboard */,
 				8536AD7024F7DA5D002CD7FA /* Assets.xcassets */,
 				8536AD7224F7DA5D002CD7FA /* LaunchScreen.storyboard */,
@@ -276,10 +276,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8536AD9A24F7F7D9002CD7FA /* FileStruct.swift in Sources */,
-				85DB54E624FFE36200A2870C /* FileGif.swift in Sources */,
 				8536AD6924F7DA5C002CD7FA /* ViewController.swift in Sources */,
 				8536AD6524F7DA5C002CD7FA /* AppDelegate.swift in Sources */,
 				8536AD6F24F7DA5C002CD7FA /* testeAuroraBoreal.xcdatamodeld in Sources */,
+				850140582501367C00A2B0B1 /* FileARSceneManager.swift in Sources */,
 				8536AD9D24F7F978002CD7FA /* AuroraARViewController.swift in Sources */,
 				8536AD6724F7DA5C002CD7FA /* SceneDelegate.swift in Sources */,
 			);
