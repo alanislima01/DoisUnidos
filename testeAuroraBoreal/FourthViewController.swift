@@ -13,9 +13,11 @@ class FourthViewController: UIViewController, UICollectionViewDataSource, UIColl
         
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ThirdCollectionViewCell", for: indexPath) as! ThirdCollectionViewCell
         
-        cell.buttonDigestao.setBackgroundImage(UIImage (named: digestao[indexPath.row]), for: .normal)
+//        cell.buttonDigestao.setBackgroundImage(UIImage (named: digestao[indexPath.row]), for: .normal)
+//
+//        cell.buttonDigestao.addTarget(self, action: #selector(passScreen), for: .touchUpInside)
         
-        cell.buttonDigestao.addTarget(self, action: #selector(passScreen), for: .touchUpInside)
+         cell.digestaoImage.image = UIImage(imageLiteralResourceName: digestao[indexPath.row])
         
         return cell
         

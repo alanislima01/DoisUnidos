@@ -51,12 +51,12 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1gN-RV-gEa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="vq5-01-eKL" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="87" y="139"/>
+            <point key="canvasLocation" x="126" y="139"/>
         </scene>
         <!--Second View Controller-->
         <scene sceneID="1f2-X1-Ok9">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="Y0v-uX-gJW" customClass="SecondViewController" customModule="testeAuroraBoreal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="Y0v-uX-gJW" customClass="SecondViewController" customModule="testeAuroraBoreal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="y42-1U-2YL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -64,8 +64,8 @@
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Arp-Gv-LMH">
                                 <rect key="frame" x="0.0" y="190" width="414" height="726"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="j7R-Qu-wdz">
+                                <color key="backgroundColor" red="0.20961683989999999" green="0.43967384100000001" blue="0.3999976516" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="j7R-Qu-wdz">
                                     <size key="itemSize" width="414" height="171"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -79,15 +79,15 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="171"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lpw-0x-x39" customClass="ButtonHumor">
-                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="97"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t4t-c1-PUf">
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="171"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </button>
+                                                </imageView>
                                             </subviews>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="414" height="171"/>
                                         <connections>
-                                            <outlet property="ButtonHumor" destination="lpw-0x-x39" id="bvl-DF-Bbt"/>
+                                            <outlet property="hortinhaImage" destination="t4t-c1-PUf" id="4sA-Fo-Y8l"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -113,7 +113,7 @@
         <!--Third View Controller-->
         <scene sceneID="Tjn-Xb-6Bi">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="veA-hh-Lki" customClass="ThirdViewController" customModule="testeAuroraBoreal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="veA-hh-Lki" customClass="ThirdViewController" customModule="testeAuroraBoreal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XRR-BA-evC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -125,30 +125,30 @@
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="I66-gU-J8R">
                                 <rect key="frame" x="0.0" y="195" width="414" height="701"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" red="0.9076040983" green="0.39013993740000003" blue="0.27446591850000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="140-WE-ayb">
-                                    <size key="itemSize" width="414" height="171"/>
+                                    <size key="itemSize" width="362" height="208"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SecondCollectionView" id="urC-hE-JVi" customClass="SecondCollectionViewCell" customModule="testeAuroraBoreal" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="171"/>
+                                        <rect key="frame" x="26" y="0.0" width="362" height="208"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="x3n-bY-dSr">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="171"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="362" height="208"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K7c-C4-XqP" userLabel="PsicoButton" customClass="PsicoButton">
-                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="99"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gNV-Ut-7Cy">
+                                                    <rect key="frame" x="2" y="0.0" width="364" height="208"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </button>
+                                                </imageView>
                                             </subviews>
                                         </collectionViewCellContentView>
-                                        <size key="customSize" width="414" height="171"/>
+                                        <size key="customSize" width="362" height="208"/>
                                         <connections>
-                                            <outlet property="PsicoButton" destination="K7c-C4-XqP" id="WhQ-aA-mep"/>
+                                            <outlet property="plantasImage" destination="gNV-Ut-7Cy" id="Bua-VE-Ixu"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -171,7 +171,7 @@
         <!--Fourth View Controller-->
         <scene sceneID="LGP-57-0q7">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="DL3-zc-lKO" customClass="FourthViewController" customModule="testeAuroraBoreal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="DL3-zc-lKO" customClass="FourthViewController" customModule="testeAuroraBoreal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kYn-cf-t2b">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -183,7 +183,7 @@
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="MRr-jf-oIT">
                                 <rect key="frame" x="0.0" y="199" width="414" height="697"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.79215686269999996" blue="0.37254901959999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="TAZ-wo-cXJ">
                                     <size key="itemSize" width="414" height="168"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -198,15 +198,15 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="168"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cdQ-Vk-b4Y" userLabel="buttonDigestao">
-                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="89"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4cA-fb-qJv">
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="168"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </button>
+                                                </imageView>
                                             </subviews>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="414" height="168"/>
                                         <connections>
-                                            <outlet property="buttonDigestao" destination="cdQ-Vk-b4Y" id="JJf-ny-FsK"/>
+                                            <outlet property="digestaoImage" destination="4cA-fb-qJv" id="Ip0-r6-Dyo"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -228,7 +228,7 @@
         <!--Firth View Controller-->
         <scene sceneID="ror-xe-NsX">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="7Bk-5w-xC4" customClass="FirthViewController" customModule="testeAuroraBoreal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="7Bk-5w-xC4" customClass="FirthViewController" customModule="testeAuroraBoreal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bud-4e-LRf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

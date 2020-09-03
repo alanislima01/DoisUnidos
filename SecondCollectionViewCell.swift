@@ -11,5 +11,5 @@ import UIKit
 
 class SecondCollectionViewCell: UICollectionViewCell{
     
-    @IBOutlet weak var PsicoButton: UIButton!
+    @IBOutlet weak var plantasImage: UIImageView!
 }

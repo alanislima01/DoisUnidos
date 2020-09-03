@@ -11,6 +11,7 @@ import UIKit
 
 class FirstCollectionViewCell: UICollectionViewCell{
     
-    @IBOutlet weak var ButtonHumor: UIButton!
+    @IBOutlet weak var hortinhaImage: UIImageView!
+    
     
 }

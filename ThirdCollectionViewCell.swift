@@ -9,7 +9,7 @@
 import UIKit
 
 class ThirdCollectionViewCell: UICollectionViewCell{
-    
-    @IBOutlet weak var buttonDigestao: UIButton!
+
+    @IBOutlet weak var digestaoImage: UIImageView!
     
 }

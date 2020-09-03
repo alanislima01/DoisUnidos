@@ -19,9 +19,12 @@ class SecondViewController: UIViewController, UICollectionViewDataSource, UIColl
         
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "HumorCollectionViewCell", for: indexPath) as! FirstCollectionViewCell
         
-        cell.ButtonHumor.setBackgroundImage(UIImage (named: humor[indexPath.row]), for: .normal)
-
-        cell.ButtonHumor.addTarget(self, action: #selector(passScreen), for: .touchUpInside)
+//        cell.ButtonHumor.setBackgroundImage(UIImage (named: humor[indexPath.row]), for: .normal)
+//
+//        cell.ButtonHumor.addTarget(self, action: #selector(passScreen), for: .touchUpInside)
+        
+        cell.hortinhaImage.image = UIImage(imageLiteralResourceName: humor[indexPath.row])
+        
         
         return cell
         

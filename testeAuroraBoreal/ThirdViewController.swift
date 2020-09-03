@@ -12,22 +12,24 @@ class ThirdViewController: UIViewController, UICollectionViewDataSource, UIColle
     
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-
+        
         return psicologia.count
         
-
+        
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-
+        
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "SecondCollectionView", for: indexPath) as! SecondCollectionViewCell
         
-        cell.PsicoButton.setBackgroundImage(UIImage (named: psicologia[indexPath.row]), for: .normal)
-
-        cell.PsicoButton.addTarget(self, action: #selector(passScreen), for: .touchUpInside)
-
+        //        cell.PsicoButton.setBackgroundImage(UIImage (named: psicologia[indexPath.row]), for: .normal)
+        //
+        //        cell.PsicoButton.addTarget(self, action: #selector(passScreen), for: .touchUpInside)
+        
+        cell.plantasImage.image = UIImage(imageLiteralResourceName: psicologia[indexPath.row])
+        
         return cell
-
+        
     }
     
     func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
@@ -54,7 +56,7 @@ class ThirdViewController: UIViewController, UICollectionViewDataSource, UIColle
     }
     
     
-    public var psicologia = [ "Asset 3", "Asset 6", "Asset 7", "Asset 8", "Asset 9"]
+    public var psicologia = [ "Asset 12-1", "Asset 13", "Asset 14", "Asset 15", "Asset 16"]
     
     @IBOutlet weak var SecondCollectionView: UICollectionView!
     
@@ -72,5 +74,5 @@ class ThirdViewController: UIViewController, UICollectionViewDataSource, UIColle
         layout.itemSize = CGSize(width: 60, height: 65)
         
     }
-
+    
 }
