@@ -19,11 +19,15 @@ class SecondViewController: UIViewController, UICollectionViewDataSource, UIColl
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "HumorCollectionViewCell", for: indexPath) as! HumorCollectionViewCell
         
         cell.ButtonHumor.setBackgroundImage(UIImage (named: humor[indexPath.row]), for: .normal)
-        
+
         cell.ButtonHumor.addTarget(self, action: #selector(passScreen), for: .touchUpInside)
         
         return cell
         
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
+        print("oi")
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {

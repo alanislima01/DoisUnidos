@@ -11,7 +11,7 @@ import UIKit
 class ThirdViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
 
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "PsicologiaCollectionViewCell", for: indexPath) as! PsicologiaCollectionViewCell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "SecondCollectionView", for: indexPath) as! SecondCollectionViewCell
         
         cell.buttonPsico.setBackgroundImage(UIImage (named: psicologia[indexPath.row]), for: .normal)
 

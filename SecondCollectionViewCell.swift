@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class PsicologiaCollectionViewCell: UICollectionViewCell{
+class SecondCollectionViewCell: UICollectionViewCell{
     
     @IBOutlet weak var buttonPsico: UIButton!
 }
