@@ -48,7 +48,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		850140572501367C00A2B0B1 /* FileARSceneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileARSceneManager.swift; sourceTree = "<group>"; };
 		0A27A97E250111F800309275 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		0A27A9802501130800309275 /* ThirdCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdCollectionViewCell.swift; sourceTree = "<group>"; };
 		0A31FC2024FEA97C001872F2 /* FirstCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -58,6 +57,7 @@
 		0A4B38B725002485009E337B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0A4B38B9250035AC009E337B /* CustomSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegue.swift; sourceTree = "<group>"; };
 		0A8AAB02250109CD00B6B2B5 /* FirthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirthViewController.swift; sourceTree = "<group>"; };
+		850140572501367C00A2B0B1 /* FileARSceneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileARSceneManager.swift; sourceTree = "<group>"; };
 		8536AD6124F7DA5C002CD7FA /* testeAuroraBoreal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testeAuroraBoreal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8536AD6424F7DA5C002CD7FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8536AD6624F7DA5C002CD7FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -131,9 +131,7 @@
 				8536AD9C24F7F978002CD7FA /* AuroraARViewController.swift */,
 				8536AD9924F7F7D9002CD7FA /* FileStruct.swift */,
 				8536AD6424F7DA5C002CD7FA /* AppDelegate.swift */,
-				8536AD6824F7DA5C002CD7FA /* ViewController.swift */,
 				8536AD6624F7DA5C002CD7FA /* SceneDelegate.swift */,
-				8544139F24FEDBFE00AE595F /* StoryboardAR.storyboard */,
 				850140572501367C00A2B0B1 /* FileARSceneManager.swift */,
 				0A4B38B725002485009E337B /* ViewController.swift */,
 				0A4B38B524FFD36E009E337B /* SecondViewController.swift */,
@@ -141,6 +139,7 @@
 				0A27A97E250111F800309275 /* FourthViewController.swift */,
 				0A8AAB02250109CD00B6B2B5 /* FirthViewController.swift */,
 				8536AD6A24F7DA5C002CD7FA /* Main.storyboard */,
+				8544139F24FEDBFE00AE595F /* StoryboardAR.storyboard */,
 				0A4B38B9250035AC009E337B /* CustomSegue.swift */,
 				8536AD7024F7DA5D002CD7FA /* Assets.xcassets */,
 				8536AD7224F7DA5D002CD7FA /* LaunchScreen.storyboard */,

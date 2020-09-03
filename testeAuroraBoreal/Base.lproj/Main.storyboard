@@ -241,6 +241,9 @@
                                 <rect key="frame" x="118" y="756" width="186" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Asset 12"/>
+                                <connections>
+                                    <segue destination="4bU-Ws-uPa" kind="show" id="nxO-BR-oeB"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Experimente!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dHv-ue-7Mx">
                                 <rect key="frame" x="157" y="772" width="108" height="21"/>
@@ -261,6 +264,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HEo-F8-3ZO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2805.7971014492755" y="138.61607142857142"/>
+        </scene>
+        <!--StoryboardAR-->
+        <scene sceneID="aw9-R3-ytP">
+            <objects>
+                <viewControllerPlaceholder storyboardName="StoryboardAR" id="4bU-Ws-uPa" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="zXx-A9-bq3"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b0q-16-Vgp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3514" y="139"/>
         </scene>
     </scenes>
     <resources>
