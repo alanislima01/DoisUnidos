@@ -11,6 +11,7 @@ import UIKit
 class FourthViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
+        
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ThirdCollectionViewCell", for: indexPath) as! ThirdCollectionViewCell
         
 //        cell.buttonDigestao.setBackgroundImage(UIImage (named: digestao[indexPath.row]), for: .normal)
@@ -36,7 +37,7 @@ class FourthViewController: UIViewController, UICollectionViewDataSource, UIColl
         self.performSegue(withIdentifier: "ShowFirthViewController", sender: self)
     }
     
-    public var digestao = [ "Asset 3", "Asset 6", "Asset 7", "Asset 8", "Asset 9"]
+    public var digestao = [ "1", "2", "3", "4"]
     
     
     
@@ -52,7 +53,7 @@ class FourthViewController: UIViewController, UICollectionViewDataSource, UIColl
         
         let layout: UICollectionViewFlowLayout = UICollectionViewFlowLayout()
         layout.sectionInset = UIEdgeInsets(top: 32, left: 20, bottom: 20, right: 20)
-        layout.itemSize = CGSize(width: 60, height: 65)
+        layout.itemSize = CGSize(width: 45, height: 65)
         
     }
     

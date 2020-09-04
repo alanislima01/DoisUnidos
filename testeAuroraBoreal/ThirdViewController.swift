@@ -56,7 +56,7 @@ class ThirdViewController: UIViewController, UICollectionViewDataSource, UIColle
     }
     
     
-    public var psicologia = [ "Asset 12-1", "Asset 13", "Asset 14", "Asset 15", "Asset 16"]
+    public var psicologia = [ "Asset 12-1", "Asset 13", "Asset 14", "Asset 15"]
     
     @IBOutlet weak var SecondCollectionView: UICollectionView!
     
